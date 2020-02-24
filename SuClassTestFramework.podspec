@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SuClassTestFramework"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of SuClassTestFramework."
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SuClassTestFramework"
+  s.homepage     = "https://github.com/francis-yuan/SuClassTestFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/SuClassTestFramework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/francis-yuan/SuClassTestFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "SuClassTestFramework", "SuClassTestFramework/**/*.{h,m}"
+  s.exclude_files = "SuClassTestFramework/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
