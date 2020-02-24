@@ -1,0 +1,6 @@
+framework module SuClassTest {
+  umbrella header "SuClassTest.h"
+
+  export *
+  module * { export * }
+}
